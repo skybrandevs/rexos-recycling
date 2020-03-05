@@ -76,6 +76,28 @@ background-attachment: fixed;
 
 }
 
+
+.bac-overview{
+
+    background-image: url("images/waste-overview.png");
+    min-height:80vh;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+
+.overview-icon{
+
+width: 150px;
+margin-top: 150px;
+
+
+}
+
+
+
 .icon-doc{
 
 display: block;
@@ -127,6 +149,19 @@ text-decoration: none;
     font-size:11.5px;
     line-height:23px;
 
+}
+
+
+.copy-25{
+
+    font-family: 'Raleway', sans-serif;
+    font-size:11.5px;
+    line-height:23px;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+  
 }
 
 
@@ -493,6 +528,94 @@ width:10.5px;
 
 
 }
+
+
+.mission{
+
+font-size: 20px;
+color: #000000;
+line-height: 24px;
+font-weight: 700;
+font-family: 'Raleway', sans-serif;
+float: left;
+padding-left: 50px;
+margin-top:100px;
+}
+
+.mission-text{
+
+    font-family: 'Raleway', sans-serif;
+    float: left;
+    padding-left: 50px;
+    margin-top:30px;
+    font-size: 14px;
+    margin-bottom: 200px;
+
+}
+
+
+
+.vision{
+
+    font-size: 20px;
+    color: #000000;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    float: left;
+    padding-left: 50px;
+    margin-top:30px;
+    }
+
+
+    .vision-text{
+
+        font-family: 'Raleway', sans-serif;
+        float: left;
+        padding-left: 50px;
+        margin-top:30px;
+        font-size: 14px;
+        
+    }
+
+    .holding{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top:250px;
+border-radius: 10px;
+width:350px;
+margin-bottom: 130px;
+
+
+    }
+
+
+    .footer-links{
+
+color: inherit;
+
+    }
+
+
+    .footer-links:hover{
+color: yellowgreen;
+    }
+
+
+    .menu-link{
+
+color: inherit;
+}
+
+
+.menu-link:hover{
+
+    color:yellowgreen !important;
+    text-decoration: none;
+    }
+
 
 
 /*@media query for mobile view */
@@ -1731,3 +1854,14 @@ display: none;
 
 
 }
+
+/*
+
+@media (prefers-color-scheme: dark) {
+    body { background: black !important; color: white !important;  }
+  }
+
+  */
+
+
+  
